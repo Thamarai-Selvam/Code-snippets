@@ -9,3 +9,7 @@ Animate Text as dissolving particles using javascript
 ### DarkMode
 
 Yeah it's 2020, darkMode era, so a simple single page demo to darkMode toggle.
+
+### CSS Sequence Animations 
+
+Pure CSS Sequence Animations without any JS involved.
