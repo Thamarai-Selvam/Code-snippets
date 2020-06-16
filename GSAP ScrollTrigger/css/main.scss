@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&display=swap');
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.arrow {
+    text-align: center;
+    margin: 8% 0;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+section {
+    height: 100vh;
+    text-align: center;
+}
+
+.dark {
+    text-align: left;
+    background: blueviolet;
+    color: white;
+    position: relative;
+}
+
+.human {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    object-fit: contain;
+    // object-fit: fill;
+    // object-fit: scale-down;
+}
+
+.left {
+    width: 30%;
+    height: 100vh;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    z-index: 0;
+    object-fit: contain;
+    // object-fit: fill;
+    // object-fit: scale-down;
+}
+
+.content {
+    padding: 9em 5em;
+    z-index: 1;
+    position: relative;
+    h2 {
+        font-size: 5em;
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 1.3em;
+    }
+}
